@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: rgb(148, 15, 15);
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.nav-item {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+   
+    text-align: center;
+    font-size: 1.8 rem;;
+    font-weight: 400;
+    
+    padding: 0px 10px;
+    line-height: 65px;
+   
+
+}
+.nav-item:hover {
+    background-color: rgb(58, 97, 140);
+}
+
+.big-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(45, 44, 44);
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+p {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(216, 49, 49);
+}
